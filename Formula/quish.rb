@@ -9,7 +9,7 @@ class Quish < Formula
   url "https://github.com/dakka/quish/archive/refs/tags/v0.5.2-beta.1.tar.gz"
   sha256 "REPLACE_WITH_TARBALL_SHA256"
   license "Apache-2.0"
-  head "git@github.com:dakka/quish.git", branch: "main"
+  head "ssh://git@github.com/dakka/quish.git", branch: "main"
 
   depends_on "cmake" => :build
   depends_on "pkg-config" => :build
